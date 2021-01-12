@@ -7,8 +7,9 @@ body {
 }
 
 .container {
-  width: 1024px;
+  width: 900px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 h1 {
   font-size: 3em;
@@ -33,6 +34,7 @@ nav ul li a {
   font-size: 1.2em;
   margin-left: 25px;
 }
+
 .menu button {
   background-color: #d6000d;
   border: none;
@@ -45,37 +47,79 @@ nav ul li a {
   font-weight: 300;
   cursor: pointer;
 }
-.videoCall {
-  margin-top: 150px;
+.videoCall,
+.codding {
+  height: 300px;
 }
 .videoCall img {
-  width: 40%;
-  height: 50%;
-  float: left;
+  height: 100%;
   margin-left: 100px;
 }
-.videoCall h2,
-h3 {
-  margin-left: 60%;
+.codding img {
+  height: 100%;
+  float: right;
+  margin-right: 100px;
 }
-.videoCall h2 {
+.apresentacao {
+  width: 40%;
+  float: right;
+}
+.apresentacao h2 {
+  font-size: 2.8em;
+  line-height: 0.5;
+  padding: 0;
+  margin-top: 0;
   color: #d6000d;
-  font-size: 3.1em;
-  line-height: 0;
 }
-.videoCall h3 {
-  font-size: 1.3em;
+.codding ul {
+  margin-bottom: 50px;
 }
-.videoCall button {
+.codding ul li {
+  list-style: none;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+.fa-check-circle {
+  color: #d6000d;
+  margin-right: 20px;
+}
+.codding p {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.apresentacao button {
   background-color: #d6000d;
   border: none;
   color: #ffffff;
   font-size: 1.2em;
-  width: 300px;
+  width: 250px;
   padding: 10px;
-  float: right;
-  margin-right: 110px;
   border-radius: 8px;
+  margin-top: 10px;
   font-weight: 300;
   cursor: pointer;
+}
+.codding button {
+  background-color: #d6000d;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 5px;
+  font-weight: 300;
+  cursor: pointer;
+  height: 47px;
+}
+input {
+  width: 250px;
+  height: 45px;
+  padding-left: 20px;
+  margin-left: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ccc;
 }
