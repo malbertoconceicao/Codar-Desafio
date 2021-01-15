@@ -200,3 +200,6 @@ footer {
   font-size: 30px;
   margin-right: 45px;
 }
+
+@media screen and (max-width: 600px) {
+}
