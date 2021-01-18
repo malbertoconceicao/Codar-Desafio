@@ -1,210 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
-  --main-bg-color: #d6000d;
+  --vermelho: #d6000d;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: Roboto;
 }
-
 .container {
   width: 900px;
   margin: 0 auto;
-  margin-bottom: 150px;
+  display: flex;
 }
-footer {
-  width: 900px;
-  margin: 0 auto;
+.itemspace {
+  justify-content: space-between;
 }
-h1 {
-  font-size: 3em;
-  display: inline;
-  color: var(--main-bg-color);
+.bottom {
+  padding-bottom: 120px;
+}
+header {
+  padding-top: 20px;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+  color: var(--vermelho);
+  font-size: 2.5em;
   font-style: italic;
 }
-span {
+header h1 span {
   color: #000000;
 }
-nav {
-  float: right;
+nav ul {
+  list-style: none;
 }
 nav ul li {
-  list-style: none;
   display: inline;
 }
 nav ul li a {
-  text-align: right;
   text-decoration: none;
-  color: #444446;
-  font-size: 1.2em;
-  margin-left: 25px;
-}
-
-.menu button {
-  background-color: #d6000d;
-  border: none;
-  color: #ffffff;
-  font-size: 1.2em;
-  width: 150px;
-  padding: 5px;
-  border-radius: 8px;
-  margin-left: 25px;
-  font-weight: 300;
-  cursor: pointer;
-}
-.videoCall,
-.codding {
-  height: 300px;
-}
-.videoCall img {
-  height: 100%;
-  margin-left: 100px;
-}
-.codding img {
-  height: 100%;
-  float: right;
-  margin-right: 100px;
-}
-.apresentacao {
-  width: 40%;
-  float: right;
-}
-.apresentacao h2 {
-  font-size: 2.8em;
-  line-height: 0.5;
-  padding: 0;
-  margin-top: 0;
-  color: var(--main-bg-color);
-}
-.codding ul {
-  margin-bottom: 50px;
-}
-.codding ul li {
-  list-style: none;
-  font-size: 1.5em;
-  line-height: 40px;
-}
-
-.fa-check-circle {
-  color: var(--main-bg-color);
-  margin-right: 20px;
-}
-.codding p {
-  font-size: 1.2em;
-  font-weight: 600;
-  margin-left: 40px;
-}
-.apresentacao button {
-  background-color: var(--main-bg-color);
-  border: none;
-  color: #ffffff;
-  font-size: 1.2em;
-  width: 250px;
+  font-size: 20px;
   padding: 10px;
-  border-radius: 8px;
-  margin-top: 10px;
-  font-weight: 300;
-  cursor: pointer;
-}
-.codding button {
-  background-color: var(--main-bg-color);
-  border: none;
-  color: #ffffff;
-  font-size: 1.2em;
-  width: 200px;
-  padding: 10px;
-  border-radius: 8px;
-  margin-left: 5px;
-  font-weight: 300;
-  cursor: pointer;
-  height: 47px;
-}
-input {
-  width: 200px;
-  height: 45px;
-  padding-left: 20px;
-  margin-left: 80px;
-  border-radius: 8px;
-  border: none;
-  background-color: #ddd;
-}
-.right {
-  float: right;
-}
-.box,
-.box2 {
-  height: 150px;
-  width: 45%;
-  background-color: #ccc;
   margin-left: 20px;
+}
+nav ul li button {
+  width: 150px;
+  border: 0;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 8px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: var(--vermelho);
+}
+.img-01 img {
+  width: 350px;
+  height: 300px;
+  margin-left: 80px;
+}
+.apresentacao-01 {
+  width: 100%;
+}
+.apresentacao-01 h2,
+h3 {
+  margin-left: 80px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.apresentacao-01 h2 {
+  font-size: 1.3em;
+  margin-top: 50px;
+}
+.apresentacao-01 h3 {
+  font-size: 3.1em;
+  color: var(--vermelho);
+}
+section button {
+  margin: 50px 0px 0px 80px;
+  width: 250px;
+  border: 0;
+  font-size: 22px;
+  color: #ffffff;
   padding: 10px;
   border-radius: 10px;
-  display: inline-block;
-}
-.box2 {
-  float: right;
-}
-.circle {
-  width: 80px;
-  height: 80px;
-  margin-top: 20px;
-  border-radius: 100%;
-  background-color: var(--main-bg-color);
-  float: left;
-}
-.box p,
-.box2 p {
-  margin-left: 90px;
-  line-height: 20px;
-}
-.box p + p,
-.box2 p + p {
-  font-size: 1.5em;
-  line-height: 5px;
-}
-.box p + p + p,
-.box2 p + p + p {
-  font-size: 1em;
-  line-height: 5px;
-  font-weight: 600;
-}
-
-footer {
-  background-color: #000000;
-  display: flex;
-}
-.footerbox {
-  color: #ffffff;
-  flex: 1;
-  margin: 15px;
-}
-.footerbox h2 {
-  font-size: 2.5em;
-}
-.footerbox h3 {
-  font-size: 1.5em;
-  padding-top: 20px;
-}
-
-.fab {
-  color: var(--main-bg-color);
-  font-size: 30px;
-  width: 30%;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100px;
-    margin: 0 auto;
-  }
-  header .logo {
-    margin: 100%;
-  }
-  nav {
-    width: 100%;
-  }
-  nav ul li button {
-    display: none;
-  }
+  background-color: var(--vermelho);
 }
