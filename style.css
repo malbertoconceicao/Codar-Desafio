@@ -85,3 +85,78 @@ section button {
   border-radius: 10px;
   background-color: var(--vermelho);
 }
+.wrap {
+  flex-wrap: wrap;
+}
+ul li {
+  list-style: none;
+  font-size: 1.5em;
+}
+.fas {
+  color: var(--vermelho);
+  margin-right: 10px;
+}
+.img-02 img {
+  width: 350px;
+  height: 300px;
+  margin-right: 80px;
+}
+.text p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+input {
+  padding: 0;
+  margin: 0;
+  width: 220px;
+  height: 45px;
+}
+input::placeholder {
+  padding-left: 15px;
+}
+.buttom {
+  margin: 0px 0px 0px 20px;
+  width: 250px;
+  line-height: 35px;
+  border: 0;
+  font-size: 22px;
+  color: #ffffff;
+  padding: 11px;
+  border-radius: 10px;
+  background-color: var(--vermelho);
+}
+.box {
+  background-color: #ccc;
+  flex-grow: 1;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.box p {
+  padding: 10px;
+}
+.box p:nth-child(odd) {
+  font-size: 1.5em;
+}
+.box p:nth-last-child(-n + 2) {
+  padding: 7px;
+  margin: 10px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.box::before {
+  content: " ";
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: var(--vermelho);
+  float: left;
+  margin: 20px 10px 80px 15px;
+}
+.black {
+  background-color: #000000;
+}
